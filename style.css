@@ -1,0 +1,125 @@
+html{
+    scroll-behavior: smooth;
+}
+.announcement{
+    height: 35px;
+    width: 100%;
+    background-color: dodgerblue;
+}
+.announcement #marqueeStyle{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    direction: left;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+#contact{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+#contact iframe{
+    height: 400px;
+    width: 50%;
+    margin: none;
+    margin-top: 20px
+}
+#contact img{
+    height: 200px;
+    width: 230px;
+    margin-left: 200px;
+}
+#contact h3{
+    font: 30px ;
+    color: white;
+    font-weight: bold;
+    margin-right: 300px;
+}
+.contact_1 a{
+    color: white;
+    font-weight: bold;
+}
+.contact_1 a h5{
+    font: 25px white bold;
+    margin-right: 300px;
+}
+.travel_mainDIV{
+    margin: 20px;
+    float: none;
+    padding: 10px;
+    border: 1px solid #c7c7c7;
+    width: 300px;
+}
+.travel_mainDIV h5, .travel_mainDIV p{
+    margin-left: 20px;
+}
+.travel_mainDIV hr{
+    width: 230px;
+}
+.travel_mainDIV img{
+    width: 200px;
+}
+.row{
+    display: flex;
+}
+.movie_head{
+    font-size: 20px;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 6px 22px;
+    margin-bottom: 15px;
+}
+.movie_head i{
+    float: right;
+}
+.movie_text span{
+    color: #ff7700;
+}
+.school_li{
+    margin-top: 13px;
+}
+.school_li h4{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+.school_li img{
+    border-radius: 25px;
+}
+.school_li p{
+    margin-top: 10px;
+}
+.book{
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.book img{
+    width: 250px;
+    height: 200px;
+    border: 1px solid gray;
+}
+.book hr{
+    margin-bottom: 10px;
+}
+.model-content{
+    margin-top: 100px;
+}
+.img-modal{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+.p-modal{
+    margin-top: 10px;
+}
+.modal-body{
+    text-align: center;
+}
